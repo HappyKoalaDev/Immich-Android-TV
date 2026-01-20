@@ -121,19 +121,19 @@ class HomeFragment : BrowseSupportFragment() {
 
     companion object {
         private val HEADERS: List<Header> = listOf(
-            Header(ImmichApplication.appContext!!.resources.getString(R.string.albums)) {
+            Header(ImmichApplication.appContext!!.getString(R.string.albums)) {
                 AlbumFragment().apply {
                     arguments = bundleOf("selectionMode" to false)
                 }
             },
-            Header(ImmichApplication.appContext!!.resources.getString(R.string.photos)) { AllAssetFragment() },
-            Header(ImmichApplication.appContext!!.resources.getString(R.string.random)) { RandomAssetsFragment() },
-            Header(ImmichApplication.appContext!!.resources.getString(R.string.people)) { PeopleFragment() },
-            Header(ImmichApplication.appContext!!.resources.getString(R.string.recent)) { RecentAssetsFragment() },
-            Header(ImmichApplication.appContext!!.resources.getString(R.string.seasonal)) { SimilarTimeAssetsFragment() },
-            Header(ImmichApplication.appContext!!.resources.getString(R.string.folders)) { FolderFragment() },
-            Header(ImmichApplication.appContext!!.resources.getString(R.string.edit)) { GridFragment(hideProgressBar = true) },
-            Header(ImmichApplication.appContext!!.resources.getString(R.string.settings)) { SettingsFragment() },
+            Header(ImmichApplication.appContext!!.getString(R.string.photos)) { AllAssetFragment() },
+            Header(ImmichApplication.appContext!!.getString(R.string.random)) { RandomAssetsFragment() },
+            Header(ImmichApplication.appContext!!.getString(R.string.people)) { PeopleFragment() },
+            Header(ImmichApplication.appContext!!.getString(R.string.recent)) { RecentAssetsFragment() },
+            Header(ImmichApplication.appContext!!.getString(R.string.seasonal)) { SimilarTimeAssetsFragment() },
+            Header(ImmichApplication.appContext!!.getString(R.string.folders)) { FolderFragment() },
+            Header(ImmichApplication.appContext!!.getString(R.string.edit)) { GridFragment(hideProgressBar = true) },
+            Header(ImmichApplication.appContext!!.getString(R.string.settings)) { SettingsFragment() },
         )
     }
 }

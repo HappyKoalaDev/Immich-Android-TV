@@ -44,7 +44,7 @@ class SettingsFragment : RowsSupportFragment() {
                 createCardRow(
                     listOf(
                         SettingsCard(
-                            ImmichApplication.appContext!!.resources.getString(R.string.server),
+                            ImmichApplication.appContext!!.getString(R.string.server),
                             null,
                             "server",
                             "ic_settings_settings",
@@ -55,7 +55,7 @@ class SettingsFragment : RowsSupportFragment() {
                             )
                         },
                         SettingsCard(
-                            ImmichApplication.appContext!!.resources.getString(R.string.view_settings),
+                            ImmichApplication.appContext!!.getString(R.string.view_settings),
                             null,
                             "view_settings",
                             "icon_view",
@@ -66,7 +66,7 @@ class SettingsFragment : RowsSupportFragment() {
                             )
                         },
                         SettingsCard(
-                            ImmichApplication.appContext!!.resources.getString(R.string.screensaver),
+                            ImmichApplication.appContext!!.getString(R.string.screensaver),
                             null,
                             "screensaver",
                             "screensaver",
@@ -77,7 +77,7 @@ class SettingsFragment : RowsSupportFragment() {
                             )
                         },
                         SettingsCard(
-                            ImmichApplication.appContext!!.resources.getString(R.string.debug),
+                            ImmichApplication.appContext!!.getString(R.string.debug),
                             null,
                             "debug",
                             "bug",
@@ -88,7 +88,7 @@ class SettingsFragment : RowsSupportFragment() {
                             )
                         },
                         SettingsCard(
-                            ImmichApplication.appContext!!.resources.getString(R.string.donate),
+                            ImmichApplication.appContext!!.getString(R.string.donate),
                             null,
                             "donate",
                             "donate",
@@ -112,7 +112,7 @@ class SettingsFragment : RowsSupportFragment() {
         val iconCardPresenter = SettingsIconPresenter(requireContext())
         val adapter = ArrayObjectAdapter(iconCardPresenter)
         adapter.addAll(0, cards.filter { it.visible })
-        val headerItem = HeaderItem(ImmichApplication.appContext!!.resources.getString(R.string.settings))
+        val headerItem = HeaderItem(ImmichApplication.appContext!!.getString(R.string.settings))
         return ListRow(headerItem, adapter)
     }
 }

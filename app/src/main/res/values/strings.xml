@@ -95,21 +95,21 @@
   <string name="screensaver_not_possible_title">Not possible to set screensaver</string>
   <string name="close">Close</string>
   <string name="interval">Interval</string>
-  <string name="screensaver_interval_summary">Interval of the screensaver</string>
+  <string name="screensaver_interval_desc">Interval of the screensaver</string>
   <string name="show_media_count">Show media count</string>
-  <string name="show_media_count_summary_screensaver">Show the number of total items and currently selected item</string>
+  <string name="show_media_count_desc_screensaver">Show the number of total items and currently selected item</string>
   <string name="show_description">Show description</string>
   <string name="show_description_screensaver">Show description of asset in screensaver</string>
   <string name="show_album_name">Show album name</string>
-  <string name="show_album_name_summary">Show album name of asset in screensaver</string>
+  <string name="show_album_name_desc">Show album name of asset in screensaver</string>
   <string name="show_date">Show date</string>
   <string name="show_date_screensaver">Show date of asset in screensaver</string>
   <string name="show_clock">Show clock</string>
   <string name="show_clock_screensaver">Show clock in screensaver</string>
   <string name="slide_new_asset_in">Slide the new asset in</string>
-  <string name="slide_new_asset_in_summary">Slide the new asset in when transitioning</string>
+  <string name="slide_new_asset_in_desc">Slide the new asset in when transitioning</string>
   <string name="set_albums_screensaver">Set albums to show in screensaver</string>
-  <string name="set_albums_screensaver_summary">Set albums to show in screensaver</string>
+  <string name="set_albums_screensaver_desc">Set albums to show in screensaver</string>
   <string name="customize_metadata">Customize metadata</string>
   <string name="configure_metadata_screensaver">Configure what to show in screensaver</string>
   <string name="include_videos">Include videos</string>
@@ -117,55 +117,55 @@
   <string name="play_sound">Play sound</string>
   <string name="play_sound_screensaver">Play sound of videos during screensaver</string>
   <string name="screensaver_type">Screensaver type</string>
-  <string name="screensaver_type_summary">What to show: albums, random, recent etc.</string>
+  <string name="screensaver_type_desc">What to show: albums, random, recent etc.</string>
 
   <!-- Slider/viewer preferences -->
   <string name="interval_slideshow">Interval</string>
-  <string name="interval_slideshow_summary">Interval of the slideshow</string>
+  <string name="interval_slideshow_desc">Interval of the slideshow</string>
   <string name="slide_animation_speed_ms">Slide animation speed (ms)</string>
-  <string name="slide_animation_speed_summary">Slide animation speed in milliseconds</string>
+  <string name="slide_animation_speed_desc">Slide animation speed in milliseconds</string>
   <string name="show_description_slideshow">Show description</string>
-  <string name="show_description_slideshow_summary">Show description of asset in slideshow</string>
+  <string name="show_description_slideshow_desc">Show description of asset in slideshow</string>
   <string name="show_media_count_slideshow">Show media count</string>
-  <string name="show_media_count_slideshow_summary">Show the number of total items and currently selected item</string>
+  <string name="show_media_count_slideshow_desc">Show the number of total items and currently selected item</string>
   <string name="show_date_slideshow">Show date</string>
-  <string name="show_date_slideshow_summary">Show date of asset in slideshow</string>
+  <string name="show_date_slideshow_desc">Show date of asset in slideshow</string>
   <string name="show_city">Show city</string>
-  <string name="show_city_summary">Show city of asset in slideshow</string>
+  <string name="show_city_desc">Show city of asset in slideshow</string>
   <string name="customize_metadata_viewer">Customize metadata</string>
   <string name="configure_metadata_viewer">Configure what to show in viewer</string>
   <string name="merge_portrait_photos">Merge portrait photos</string>
-  <string name="merge_portrait_photos_summary">Show two portrait photos next to each other</string>
+  <string name="merge_portrait_photos_desc">Show two portrait photos next to each other</string>
   <string name="safe_center_crop_max_cutoff_height">Safe Center Crop max cutoff height %</string>
-  <string name="safe_center_crop_max_cutoff_height_summary">Maximum percentage to cut off image height if using SafeCenterCrop</string>
+  <string name="safe_center_crop_max_cutoff_height_desc">Maximum percentage to cut off image height if using SafeCenterCrop</string>
   <string name="safe_center_crop_max_cutoff_width">Safe Center Crop max cutoff width %</string>
-  <string name="safe_center_crop_max_cutoff_width_summary">Maximum percentage to cut off image width if using SafeCenterCrop</string>
+  <string name="safe_center_crop_max_cutoff_width_desc">Maximum percentage to cut off image width if using SafeCenterCrop</string>
   <string name="photo_transformation">Photo transformation</string>
-  <string name="photo_transformation_summary">Photo transformation</string>
+  <string name="photo_transformation_desc">Photo transformation</string>
   <string name="force_original_video">Force original video</string>
-  <string name="force_original_video_summary">Play original video, even when transcode is available</string>
+  <string name="force_original_video_desc">Play original video, even when transcode is available</string>
 
   <!-- Other preferences -->
   <string name="photos_in_albums">Photos in albums</string>
-  <string name="photos_in_albums_summary_inside">Set the order in which photos should appear inside albums</string>
+  <string name="photos_in_albums_desc_inside">Set the order in which photos should appear inside albums</string>
   <string name="content_type">Content type</string>
   <string name="filter_by_content_type">Filter by content type</string>
   <string name="assets_outside_albums">Assets outside albums</string>
-  <string name="assets_outside_albums_summary">Set the order in which assets should appear outside Albums</string>
+  <string name="assets_outside_albums_desc">Set the order in which assets should appear outside Albums</string>
   <string name="enable_debug_mode">Enable debug mode</string>
-  <string name="enable_debug_mode_summary">Enable this if you are experiencing issues.</string>
+  <string name="enable_debug_mode_desc">Enable this if you are experiencing issues.</string>
   <string name="load_selected_item_as_background">Load selected item as background</string>
-  <string name="load_selected_item_as_background_summary">Load the currently selected image/album as the background</string>
+  <string name="load_selected_item_as_background_desc">Load the currently selected image/album as the background</string>
   <string name="user_id">User ID</string>
-  <string name="user_id_summary">Your user id, needed for debugging</string>
+  <string name="user_id_desc">Your user id, needed for debugging</string>
   <string name="seasonal_photos_years_back">Seasonal photos years back</string>
-  <string name="seasonal_photos_years_back_summary">How many years to go back when selecting seasonal photos</string>
+  <string name="seasonal_photos_years_back_desc">How many years to go back when selecting seasonal photos</string>
   <string name="seasonal_photos_period_days">Seasonal photos period in days</string>
-  <string name="seasonal_photos_period_days_summary">Seasonal photos period in days</string>
+  <string name="seasonal_photos_period_days_desc">Seasonal photos period in days</string>
   <string name="recent_photos_months_back">Recent photos months back</string>
-  <string name="recent_photos_months_back_summary">Recent photos months back</string>
+  <string name="recent_photos_months_back_desc">Recent photos months back</string>
   <string name="excluded_albums">Excluded albums</string>
-  <string name="excluded_albums_summary">Exclude assets in specific albums for random/seasonal view</string>
+  <string name="excluded_albums_desc">Exclude assets in specific albums for random/seasonal view</string>
 
   <!-- Preference screens and categories -->
   <string name="view_settings">View Settings</string>
@@ -209,8 +209,6 @@
   <string name="could_not_fetch_qr_short">Could not fetch QR code</string>
 
   <!-- Albums ordering -->
-  <string name="albums_order_last_updated">Last updated</string>
-  <string name="albums_order_least_updated">Least updated</string>
   <string name="albums_order_asset_count">Asset count</string>
 
   <!-- Donate -->
@@ -220,12 +218,13 @@
   <string name="donation_exhausted">You have exhausted your donate options, thanks!</string>
   <string name="donation_init_failed">Could not initialize donation service, sorry!</string>
 
-
   <!-- Ordering -->
   <string name="order_alphabetically_az">Alphabetically (A-Z)</string>
   <string name="order_alphabetically_za">Alphabetically (Z-A)</string>
   <string name="order_newest_oldest">Newest - Oldest</string>
   <string name="order_oldest_newest">Oldest - Newest</string>
+  <string name="order_last_updated">Last updated</string>
+  <string name="order_least_updated">Least updated</string>
 
   <!-- Interval titles -->
   <string name="interval_1_second">1 second</string>

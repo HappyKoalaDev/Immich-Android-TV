@@ -59,10 +59,10 @@
     </array>
 
     <string-array name="albums_order">
-        <item>@string/albums_order_last_updated</item>
+        <item>@string/order_last_updated</item>
         <item>@string/order_alphabetically_az</item>
         <item>@string/order_alphabetically_za</item>
-        <item>@string/albums_order_least_updated</item>
+        <item>@string/order_least_updated</item>
     </string-array>
 
     <string-array name="albums_order_keys">

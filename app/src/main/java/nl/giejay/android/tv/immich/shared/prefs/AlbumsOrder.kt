@@ -17,12 +17,12 @@ enum class AlbumsOrder(val sort: Comparator<Album>) : EnumWithTitle {
     },
     LAST_UPDATED(compareByDescending { it.endDate } ) {
         override fun getTitle(): String {
-            return ImmichApplication.appContext!!.getString(R.string.albums_order_last_updated)
+            return ImmichApplication.appContext!!.getString(R.string.order_last_updated)
         }
     },
     LEAST_UPDATED(LAST_UPDATED.sort.reversed() ) {
         override fun getTitle(): String {
-            return ImmichApplication.appContext!!.getString(R.string.albums_order_least_updated)
+            return ImmichApplication.appContext!!.getString(R.string.order_least_updated)
         }
     },
     ASSET_COUNT(compareBy<Album> { it.assetCount }.reversed() ) {

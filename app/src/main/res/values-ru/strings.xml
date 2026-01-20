@@ -81,21 +81,21 @@
   <string name="screensaver_not_possible_title">Невозможно установить заставку</string>
   <string name="close">Закрыть</string>
   <string name="interval">Интервал</string>
-  <string name="screensaver_interval_summary">Интервал заставки</string>
+  <string name="screensaver_interval_desc">Интервал заставки</string>
   <string name="show_media_count">Показывать количество медиа</string>
-  <string name="show_media_count_summary_screensaver">Показывать общее количество и текущий элемент</string>
+  <string name="show_media_count_desc_screensaver">Показывать общее количество и текущий элемент</string>
   <string name="show_description">Показывать описание</string>
   <string name="show_description_screensaver">Показывать описание элемента в заставке</string>
   <string name="show_album_name">Показывать название альбома</string>
-  <string name="show_album_name_summary">Показывать название альбома элемента в заставке</string>
+  <string name="show_album_name_desc">Показывать название альбома элемента в заставке</string>
   <string name="show_date">Показывать дату</string>
   <string name="show_date_screensaver">Показывать дату элемента в заставке</string>
   <string name="show_clock">Показывать часы</string>
   <string name="show_clock_screensaver">Показывать часы в заставке</string>
   <string name="slide_new_asset_in">Сдвигать новый элемент</string>
-  <string name="slide_new_asset_in_summary">Сдвигать новый элемент при переходе</string>
+  <string name="slide_new_asset_in_desc">Сдвигать новый элемент при переходе</string>
   <string name="set_albums_screensaver">Выбрать альбомы для заставки</string>
-  <string name="set_albums_screensaver_summary">Выбрать альбомы для отображения в заставке</string>
+  <string name="set_albums_screensaver_desc">Выбрать альбомы для отображения в заставке</string>
   <string name="customize_metadata">Настроить метаданные</string>
   <string name="configure_metadata_screensaver">Настроить, что показывать в заставке</string>
   <string name="include_videos">Включать видео</string>
@@ -103,55 +103,55 @@
   <string name="play_sound">Проигрывать звук</string>
   <string name="play_sound_screensaver">Проигрывать звук видео в заставке</string>
   <string name="screensaver_type">Тип заставки</string>
-  <string name="screensaver_type_summary">Что показывать: альбомы, случайные, нед��вние и т.д.</string>
+  <string name="screensaver_type_desc">Что показывать: альбомы, случайные, недавние и т.д.</string>
 
   <!-- Slider/viewer preferences -->
   <string name="interval_slideshow">Интервал</string>
-  <string name="interval_slideshow_summary">Интервал слайд-шоу</string>
+  <string name="interval_slideshow_desc">Интервал слайд-шоу</string>
   <string name="slide_animation_speed_ms">Скорость анимации слайда (мс)</string>
-  <string name="slide_animation_speed_summary">Скорость анимации в миллисекундах</string>
+  <string name="slide_animation_speed_desc">Скорость анимации в миллисекундах</string>
   <string name="show_description_slideshow">Показывать описание</string>
-  <string name="show_description_slideshow_summary">Показывать описание элемента в слайд-шоу</string>
+  <string name="show_description_slideshow_desc">Показывать описание элемента в слайд-шоу</string>
   <string name="show_media_count_slideshow">Показывать количество медиа</string>
-  <string name="show_media_count_slideshow_summary">Показывать общее количество и текущий элемент</string>
+  <string name="show_media_count_slideshow_desc">Показывать общее количество и текущий элемент</string>
   <string name="show_date_slideshow">Показывать дату</string>
-  <string name="show_date_slideshow_summary">Показывать дату элемента в слайд-шоу</string>
+  <string name="show_date_slideshow_desc">Показывать дату элемента в слайд-шоу</string>
   <string name="show_city">Показывать город</string>
-  <string name="show_city_summary">Показывать город элемента в слайд-шоу</string>
+  <string name="show_city_desc">Показывать город элемента в слайд-шоу</string>
   <string name="customize_metadata_viewer">Настроить метаданные</string>
   <string name="configure_metadata_viewer">Настроить, что показывать в просмотрщике</string>
   <string name="merge_portrait_photos">Объединять портретные фото</string>
-  <string name="merge_portrait_photos_summary">Показывать два портретных фото рядом</string>
+  <string name="merge_portrait_photos_desc">Показывать два портретных фото рядом</string>
   <string name="safe_center_crop_max_cutoff_height">Safe Center Crop: макс. обрезка по высоте, %</string>
-  <string name="safe_center_crop_max_cutoff_height_summary">Максимальный процент обрезки высоты изображения при использовании SafeCenterCrop</string>
+  <string name="safe_center_crop_max_cutoff_height_desc">Максимальный процент обрезки высоты изображения при использовании SafeCenterCrop</string>
   <string name="safe_center_crop_max_cutoff_width">Safe Center Crop: макс. обрезка по ширине, %</string>
-  <string name="safe_center_crop_max_cutoff_width_summary">Максимальный процент обрезки ширины изображения при исп��льзовании SafeCenterCrop</string>
+  <string name="safe_center_crop_max_cutoff_width_desc">Максимальный процент обрезки ширины изображения при исп��льзовании SafeCenterCrop</string>
   <string name="photo_transformation">Преобразование фото</string>
-  <string name="photo_transformation_summary">Преобразование фото</string>
+  <string name="photo_transformation_desc">Преобразование фото</string>
   <string name="force_original_video">Принудительно оригинальное видео</string>
-  <string name="force_original_video_summary">Воспроизводить оригинальное видео, даже если доступна транскодированная версия</string>
+  <string name="force_original_video_desc">Воспроизводить оригинальное видео, даже если доступна транскодированная версия</string>
 
   <!-- Other preferences -->
   <string name="photos_in_albums">Фото в альбомах</string>
-  <string name="photos_in_albums_summary_inside">Задайте порядок отображения фото внутри альбомов</string>
+  <string name="photos_in_albums_desc_inside">Задайте порядок отображения фото внутри альбомов</string>
   <string name="content_type">Тип контента</string>
   <string name="filter_by_content_type">Фильтровать по типу контента</string>
   <string name="assets_outside_albums">Элементы вне альбомов</string>
-  <string name="assets_outside_albums_summary">Задайте порядок отображения элементов вне альбомов</string>
+  <string name="assets_outside_albums_desc">Задайте порядок отображения элементов вне альбомов</string>
   <string name="enable_debug_mode">Включить режим отладки</string>
-  <string name="enable_debug_mode_summary">Включай��е при возникновении проблем.</string>
-  <string name="load_selected_item_as_background">Заг��ужать выбранный элемент как фон</string>
-  <string name="load_selected_item_as_background_summary">Загружать текущую выбранную картинку/альбом как фон</string>
+  <string name="enable_debug_mode_desc">Включайте при возникновении проблем.</string>
+  <string name="load_selected_item_as_background">Загружать выбранный элемент как фон</string>
+  <string name="load_selected_item_as_background_desc">Загружать текущую выбранную картинку/альбом как фон</string>
   <string name="user_id">ID пользователя</string>
-  <string name="user_id_summary">Ваш ID пользователя, нужен для отладки</string>
+  <string name="user_id_desc">Ваш ID пользователя, нужен для отладки</string>
   <string name="seasonal_photos_years_back">Сезонные фото: лет назад</string>
-  <string name="seasonal_photos_years_back_summary">Сколько лет назад учитывать при выборе сезонных фото</string>
+  <string name="seasonal_photos_years_back_desc">Сколько лет назад учитывать при показе сезонных фото</string>
   <string name="seasonal_photos_period_days">Сезонные фото: период в днях</string>
-  <string name="seasonal_photos_period_days_summary">Период сезонных фото в днях</string>
+  <string name="seasonal_photos_period_days_desc">Период сезонных фото в днях</string>
   <string name="recent_photos_months_back">Недавние фото: месяцев назад</string>
-  <string name="recent_photos_months_back_summary">Сколько месяцев назад учитывать для недавних фото</string>
+  <string name="recent_photos_months_back_desc">Сколько месяцев назад учитывать для недавних фото</string>
   <string name="excluded_albums">Исключенные альбомы</string>
-  <string name="excluded_albums_summary">Исключать элементы из конкретных альбомов для случайного/сезонного вида</string>
+  <string name="excluded_albums_desc">Исключать элементы из конкретных альбомов для случайного/сезонного вида</string>
 
   <!-- Preference screens and categories -->
   <string name="view_settings">Настройки просмотра</string>
@@ -185,8 +185,7 @@
   <string name="could_not_fetch_qr_short">Не удалось получить QR-код</string>
 
   <!-- Albums ordering -->
-  <string name="albums_order_last_updated">Последнее обновление</string>
-  <string name="albums_order_least_updated">Давно не обновлялись</string>
+
   <string name="albums_order_asset_count">Количество элементов</string>
 
   <!-- Donate -->
@@ -194,13 +193,15 @@
   <string name="donation_subtitle">Разработка этого приложения требует больших усилий. Если хотите выразить признательность, вы можете пожертвовать,
     используя следующие варианты.</string>
   <string name="donation_exhausted">Вы исчерпали варианты пожертвований, спасибо!</string>
-  <string name="donation_init_failed">Не удалось инициализировать сервис пожертвований, извините!</string>
+  <string name="donation_init_failed">Не удалось инициализировать сервис пожертвований</string>
 
   <!-- Ordering -->
   <string name="order_alphabetically_az">По алфавиту (А–Я)</string>
   <string name="order_alphabetically_za">По алфавиту (Я–А)</string>
   <string name="order_newest_oldest">Новые — Старые</string>
   <string name="order_oldest_newest">Старые — Новые</string>
+  <string name="order_last_updated">Сначала новые</string>
+  <string name="order_least_updated">Сначала старые</string>
 
   <!-- Interval titles -->
   <string name="interval_1_second">1 секунда</string>
