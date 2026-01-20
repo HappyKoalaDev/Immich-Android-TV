@@ -60,7 +60,7 @@ class ScreenSaverService : DreamService(), MediaSliderListener {
     override fun onDreamingStarted() {
         Timber.i("Starting screensaver")
         if (!PreferenceManager.isLoggedId()) {
-            showErrorMessage(getString(R.string.screensaver_not_possible_title))
+            showErrorMessage(getString(R.string.screensaver_not_possible))
             finish()
             return
         }

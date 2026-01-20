@@ -290,13 +290,13 @@ data object SIMILAR_ASSETS_YEARS_BACK : IntListPref(10,
 
 data object SIMILAR_ASSETS_PERIOD_DAYS : IntListPref(30,
     ImmichApplication.appContext!!.getString(R.string.seasonal_photos_period_days),
-    ImmichApplication.appContext!!.getString(R.string.seasonal_photos_period_days_desc),
+    ImmichApplication.appContext!!.getString(R.string.seasonal_photos_period_days),
     R.array.similar_assets_period_days,
     R.array.similar_assets_period_days)
 
 data object RECENT_ASSETS_MONTHS_BACK : IntListPref(5,
     ImmichApplication.appContext!!.getString(R.string.recent_photos_months_back),
-    ImmichApplication.appContext!!.getString(R.string.recent_photos_months_back_desc),
+    ImmichApplication.appContext!!.getString(R.string.recent_photos_months_back),
     R.array.recent_assets_months_back,
     R.array.recent_assets_months_back)
 
@@ -361,7 +361,7 @@ data object DebugPrefScreen : PrefScreen(ImmichApplication.appContext!!.getStrin
     prefManager.findPreference<Preference>(USER_ID.key())?.summary = PreferenceManager.get(USER_ID)
 })
 
-data class AlbumDetailsSettingsScreen(val albumId: String, val albumName: String) : PrefScreen(ImmichApplication.appContext!!.getString(R.string.settings_for_album, albumName),
+data class AlbumDetailsSettingsScreen(val albumId: String, val albumName: String) : PrefScreen(ImmichApplication.appContext!!.getString(R.string.settings_for, albumName),
     "album_settings_${albumId}",
     listOf(
         PrefCategory(ImmichApplication.appContext!!.getString(R.string.ordering), listOf(PHOTOS_SORTING_FOR_SPECIFIC_ALBUM(albumId, albumName))),

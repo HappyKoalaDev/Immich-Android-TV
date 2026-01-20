@@ -19,8 +19,7 @@
 
     <!-- Strings for the "No Firebase" screen -->
     <string name="no_firebase_title">Firebase not configured</string>
-    <string name="no_firebase_body">Firebase has not been configured for this app. That means no account-specific features are enabled and watch
-        progress is stored locally. To enable Firebase features, refer to the readme file.</string>
+    <string name="no_firebase_body">Firebase has not been configured for this app. That means no account-specific features are enabled and watch progress is stored locally. To enable Firebase features, refer to the readme file.</string>
     <string name="continue_text">Continue</string>
 
     <!-- Menus -->
@@ -38,8 +37,7 @@
     <string name="onetap_error">One Tap returned an error</string>
     <string name="server_error">Server error</string>
     <string name="unknown_error">Unknown error</string>
-    <string name="sign_in_intro">Without any changes, this app uses local authorization (MockAuthClient). You can log in using "%1$s" as the email and
-        any non-empty string as the password. To update the app to use remote auth, see the RemoteAuthClient class.</string>
+    <string name="sign_in_intro">Without any changes, this app uses local authorization (MockAuthClient). You can log in using "%1$s" as the email and any non-empty string as the password. To update the app to use remote auth, see the RemoteAuthClient class.</string>
 
     <!-- Channel strings -->
     <string name="default_home_screen_channel_name">Example Channel</string>
@@ -95,6 +93,7 @@
     <string name="screensaver_set">Set Immich as screensaver</string>
     <string name="screensaver_set_select_albums_first">Please set your albums to show first!</string>
     <string name="screensaver_not_possible_title">Not possible to set screensaver</string>
+    <string name="screensaver_not_possible">Could not start screensaver for Immich because of invalid Hostname/API key</string>
     <string name="close">Close</string>
     <string name="interval">Interval</string>
     <string name="screensaver_interval_desc">Interval of the screensaver</string>
@@ -163,9 +162,7 @@
     <string name="seasonal_photos_years_back">Seasonal photos years back</string>
     <string name="seasonal_photos_years_back_desc">How many years to go back when selecting seasonal photos</string>
     <string name="seasonal_photos_period_days">Seasonal photos period in days</string>
-    <string name="seasonal_photos_period_days_desc">Seasonal photos period in days</string>
     <string name="recent_photos_months_back">Recent photos months back</string>
-    <string name="recent_photos_months_back_desc">Recent photos months back</string>
     <string name="excluded_albums">Excluded albums</string>
     <string name="excluded_albums_desc">Exclude assets in specific albums for random/seasonal view</string>
 
@@ -176,7 +173,7 @@
     <string name="other">Other</string>
     <string name="screensaver_settings">Screensaver Settings</string>
     <string name="debug_settings">Debug Settings</string>
-    <string name="settings_for_album">Settings for %1$s</string>
+    <string name="settings_for">Settings for %1$s</string>
     <string name="filtering">Filtering</string>
 
     <!-- Auth step 1 -->
@@ -212,8 +209,7 @@
 
     <!-- Donate -->
     <string name="donation_title">Donation</string>
-    <string name="donation_subtitle">Developing this app takes a lot of effort, if you would like to show your appreciation, you can donate using the
-        following options.</string>
+    <string name="donation_subtitle">Developing this app takes a lot of effort, if you would like to show your appreciation, you can donate using the following options.</string>
     <string name="donation_exhausted">You have exhausted your donate options, thanks!</string>
     <string name="donation_init_failed">Could not initialize donation service, sorry!</string>
 
