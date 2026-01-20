@@ -89,7 +89,7 @@
   <!-- Metadata -->
   <string name="metadata">Metadata</string>
 
-  <!-- Screensaver dialogs and preferences -->
+  <!-- Screensaver  -->
   <string name="screensaver_set">Set Immich as screensaver</string>
   <string name="screensaver_set_select_albums_first">Please set your albums to show first!</string>
   <string name="screensaver_not_possible_title">Not possible to set screensaver</string>
@@ -188,10 +188,8 @@
   <string name="auth_continue">Continue</string>
 
   <!-- Auth step 2 (GuidedStep) -->
-  <string name="immich_tv">Immich TV</string>
   <string name="login_immich_description">Login to your Immich server or try a demo.</string>
   <string name="server_url_hint">Server URL (http[s]://...)</string>
-  <string name="api_key_hint">API Key</string>
   <string name="disable_ssl_verification">Disable SSL verification</string>
   <string name="disable_ssl_verification_desc">Only use this when you have issues with self signed certificates!</string>
   <string name="debug_mode">Debug mode</string>
@@ -201,7 +199,7 @@
   <string name="enter_api_key">Please enter an API key, if you did enter it, try to highlight it again and press enter/OK, not back (sorry).</string>
   <string name="enter_valid_server_url">Please enter a valid server URL (https://...)</string>
 
-  <!-- Auth by phone errors and messages -->
+  <!-- Auth by phone -->
   <string name="or_enter_code_on_auth_url">Or enter the code %1$s on %2$s</string>
   <string name="auth_timeout_recreating_qr">Did not authenticate within the timeout, recreating QR code.</string>
   <string name="invalid_server_url_or_api_key">Invalid Server URL or API key, try scanning again!</string>
@@ -251,14 +249,5 @@
   <string name="transformation_center_inside">Center Inside (keep image width/height)</string>
   <string name="transformation_center_crop">Center Crop (fit screen)</string>
   <string name="transformation_safe_center_crop">Safe Center Crop (max crop percentage)</string>
-
-  <!-- Screensaver types -->
-  <string name="screensaver_type_albums">Albums</string>
-  <string name="screensaver_type_random">Random</string>
-  <string name="screensaver_type_recent">Recent</string>
-  <string name="screensaver_type_seasonal">Seasonal</string>
-
-  <!-- All assets ordering -->
-
 
 </resources>

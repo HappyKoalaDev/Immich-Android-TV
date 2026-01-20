@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">Immich TV</string>
 
   <!-- Strings for the "No Firebase" screen -->
   <string name="no_firebase_title">Firebase не настроен</string>
@@ -164,17 +163,15 @@
   <string name="filtering">Фильтрация</string>
 
   <!-- Auth step 2 (GuidedStep) -->
-  <string name="immich_tv">Immich TV</string>
   <string name="login_immich_description">Войдите на ваш сервер Immich или попробуйте демо.</string>
   <string name="server_url_hint">URL сервера (http[s]://...)</string>
-  <string name="api_key_hint">API-ключ</string>
   <string name="disable_ssl_verification">Отключить проверку SSL</string>
   <string name="disable_ssl_verification_desc">Используйте это только при проблемах с самоподписанными сертификатами!</string>
   <string name="debug_mode">Режим отладки</string>
   <string name="debug_mode_desc">Включите это, если у вас возникают проблемы с получением данных Immich.</string>
   <string name="submit">Отправить</string>
   <string name="enter_server_url">Введите URL сервера (https://...)</string>
-  <string name="enter_api_key">Введите API-ключ; если уже ввели, попробуйте снова выделить его и нажать Enter/OK, а не Назад (извините).</string>
+  <string name="enter_api_key">Введите API-ключ; если уже ввели, попробуйте снова выделить его и нажать Enter/OK, а не Назад</string>
   <string name="enter_valid_server_url">Введите корректный URL сервера (https://...)</string>
 
   <!-- Auth by phone errors and messages -->

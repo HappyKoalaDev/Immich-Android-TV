@@ -57,7 +57,7 @@ class AuthFragmentStep2 : GuidedStepSupportFragment() {
         addEditableAction(
             actions,
             ACTION_API_KEY,
-            getString(R.string.api_key_hint),
+            getString(R.string.api_key_text),
             PreferenceManager.get(API_KEY),
             InputType.TYPE_CLASS_TEXT
         )
