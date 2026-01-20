@@ -21,7 +21,7 @@ class ImmichMediaSlider : MediaSliderFragment() {
 
         if(bundle.config.items.isEmpty()){
             Timber.i("No items to play for photoslider")
-            Toast.makeText(requireContext(), getString(nl.giejay.android.tv.immich.R.string.could_not_fetch_qr_short).replace("QR code","items"), Toast.LENGTH_SHORT).show()
+            Toast.makeText(requireContext(), getString(nl.giejay.android.tv.immich.R.string.already_added_metadata), Toast.LENGTH_SHORT).show()
             findNavController().popBackStack()
             return
         }

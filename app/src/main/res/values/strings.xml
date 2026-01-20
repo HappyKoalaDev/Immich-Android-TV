@@ -205,6 +205,7 @@
     <string name="invalid_server_url_or_api_key">Invalid Server URL or API key, try scanning again!</string>
     <string name="could_not_fetch_qr">Could not fetch QR code: %1$s</string>
     <string name="could_not_fetch_qr_short">Could not fetch QR code</string>
+    <string name="could_not_assets">Could not load assets from Immich</string>
 
     <!-- Albums ordering -->
     <string name="albums_order_asset_count">Asset count</string>
@@ -245,6 +246,7 @@
     <string name="left">Left</string>
     <string name="right">Right</string>
 
-    <!-- Photo transformation -->
+
+    <string name="already_added_metadata">You already added every possible meta data</string>
 
 </resources>
