@@ -46,6 +46,7 @@ import nl.giejay.mediaslider.util.LoadMore
 import nl.giejay.mediaslider.util.MediaSliderListener
 import nl.giejay.mediaslider.view.MediaSliderView
 import timber.log.Timber
+import nl.giejay.android.tv.immich.R
 import java.util.EnumSet
 
 class ScreenSaverService : DreamService(), MediaSliderListener {

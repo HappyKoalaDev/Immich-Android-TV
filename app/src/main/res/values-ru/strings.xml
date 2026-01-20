@@ -61,12 +61,12 @@
   <string name="use_hd_thumbnails_text">Использовать миниатюры высокого разрешения вместо полноразмерных изображений. Это значительно ускорит
     загрузку.</string>
   <string name="albums_sorting_text">Задайте порядок отображения альбомов</string>
-  <string name="order">Порядок\n</string>
+  <string name="order">Порядок</string>
   <string name="photos_sorting_text">Задайте порядок отображения фотографий</string>
   <string name="disable_ssl">Отключить проверку SSL</string>
   <string name="disable_ssl_text">Используйте это только при проблемах с самоподписанными сертификатами!</string>
-  <string name="api_key_text">API ключ\n</string>
-  <string name="server_url_text">URL сервера\n</string>
+  <string name="api_key_text">API ключ</string>
+  <string name="server_url_text">URL сервера</string>
 
   <!-- Auth by phone -->
   <string name="scan_qr_below">Сканируйте QR-код ниже</string>
@@ -203,16 +203,16 @@
   <string name="order_oldest_newest">Старые — Новые</string>
 
   <!-- Interval titles -->
-  <string name="1_second">1 секунда</string>
-  <string name="3_seconds">3 секунды</string>
-  <string name="5_seconds">5 секунд</string>
-  <string name="10_seconds">10 секунд</string>
-  <string name="20_seconds">20 секунд</string>
-  <string name="30_seconds">30 секунд</string>
-  <string name="1_minute">1 минута</string>
-  <string name="3_minutes">3 минуты</string>
-  <string name="5_minutes">5 минут</string>
-  <string name="10_minutes">10 минут</string>
+  <string name="interval_1_second">1 секунда</string>
+  <string name="interval_3_seconds">3 секунды</string>
+  <string name="interval_5_seconds">5 секунд</string>
+  <string name="interval_10_seconds">10 секунд</string>
+  <string name="interval_20_seconds">20 секунд</string>
+  <string name="interval_30_seconds">30 секунд</string>
+  <string name="interval_1_minute">1 минута</string>
+  <string name="interval_3_minutes">3 минуты</string>
+  <string name="interval_5_minutes">5 минут</string>
+  <string name="interval_10_minutes">10 минут</string>
 
   <!-- Content type filter -->
   <string name="content_type_all">Все</string>
@@ -237,7 +237,6 @@
   <!-- All assets ordering -->
 
   <!-- Auth step 1 -->
-  <string name="auth_title">Immich TV</string>
   <string name="auth_description">Войдите на ваш сервер Immich или попробуйте демо.</string>
   <string name="auth_sign_in_by_api_key">Войти по API-ключу</string>
   <string name="auth_sign_in_by_api_key_desc">Войдите в ваш экземпляр Immich, введя API-ключ.</string>

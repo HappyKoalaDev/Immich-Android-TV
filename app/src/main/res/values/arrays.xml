@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="interval_titles">
-        <item>@string/1_second</item>
-        <item>@string/3_seconds</item>
-        <item>@string/5_seconds</item>
-        <item>@string/10_seconds</item>
-        <item>@string/20_seconds</item>
-        <item>@string/30_seconds</item>
-        <item>@string/1_minute</item>
-        <item>@string/3_minutes</item>
-        <item>@string/5_minutes</item>
-        <item>@string/10_minutes</item>
+        <item>@string/interval_1_second</item>
+        <item>@string/interval_3_seconds</item>
+        <item>@string/interval_5_seconds</item>
+        <item>@string/interval_10_seconds</item>
+        <item>@string/interval_20_seconds</item>
+        <item>@string/interval_30_seconds</item>
+        <item>@string/interval_1_minute</item>
+        <item>@string/interval_3_minutes</item>
+        <item>@string/interval_5_minutes</item>
+        <item>@string/interval_10_minutes</item>
     </array>
     <string-array name="interval_values">
         <item>1</item>

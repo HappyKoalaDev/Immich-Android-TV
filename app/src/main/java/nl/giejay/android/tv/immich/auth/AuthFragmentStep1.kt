@@ -30,7 +30,7 @@ class AuthFragmentStep1 : GuidedStepSupportFragment() {
         val icon: Drawable =
             requireContext().getDrawable(R.drawable.icon)!!
         return GuidanceStylist.Guidance(
-            getString(R.string.auth_title) + " (${BuildConfig.VERSION_NAME})",
+            getString(R.string.app_name) + " (${BuildConfig.VERSION_NAME})",
             getString(R.string.auth_description),
             "",
             icon
