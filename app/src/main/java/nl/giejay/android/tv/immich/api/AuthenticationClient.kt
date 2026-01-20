@@ -15,7 +15,7 @@ class AuthenticationClient {
         val newRequest = chain.request().newBuilder()
             .addHeader(
                 "x-api-key",
-                ImmichApplication.appContext!!.getString(R.string.api_key)
+                ImmichApplication.appContext!!.resources.getString(R.string.api_key)
             )
             .build()
         chain.proceed(newRequest)
@@ -24,7 +24,7 @@ class AuthenticationClient {
     private val retrofit = Retrofit.Builder()
         .client(OkHttpClient.Builder().addInterceptor(interceptor).build())
         .addConverterFactory(GsonConverterFactory.create())
-        .baseUrl(ImmichApplication.appContext!!.getString(R.string.authentication_url))
+        .baseUrl(ImmichApplication.appContext!!.resources.getString(R.string.authentication_url))
         .build()
 
     private val authService = retrofit.create(ImmichAuthenticationService::class.java)
