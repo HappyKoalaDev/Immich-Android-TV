@@ -69,7 +69,7 @@ class AuthFragmentStep1 : GuidedStepSupportFragment() {
         savedInstanceState: Bundle?
     ) {
         super.onCreateButtonActions(actions, savedInstanceState)
-        addAction(actions, ACTION_CONTINUE, getString(R.string.auth_continue), "")
+        addAction(actions, ACTION_CONTINUE, getString(R.string.continue), "")
     }
 
     override fun onGuidedActionClicked(action: GuidedAction) {

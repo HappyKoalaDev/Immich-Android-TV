@@ -19,7 +19,8 @@
 
     <!-- Strings for the "No Firebase" screen -->
     <string name="no_firebase_title">Firebase not configured</string>
-    <string name="no_firebase_body">Firebase has not been configured for this app. That means no account-specific features are enabled and watch progress is stored locally. To enable Firebase features, refer to the readme file.</string>
+    <string name="no_firebase_body">Firebase has not been configured for this app. That means no account-specific features are enabled and watch
+        progress is stored locally. To enable Firebase features, refer to the readme file.</string>
     <string name="continue_text">Continue</string>
 
     <!-- Menus -->
@@ -37,7 +38,8 @@
     <string name="onetap_error">One Tap returned an error</string>
     <string name="server_error">Server error</string>
     <string name="unknown_error">Unknown error</string>
-    <string name="sign_in_intro">Without any changes, this app uses local authorization (MockAuthClient). You can log in using "%1$s" as the email and any non-empty string as the password. To update the app to use remote auth, see the RemoteAuthClient class.</string>
+    <string name="sign_in_intro">Without any changes, this app uses local authorization (MockAuthClient). You can log in using "%1$s" as the email and
+        any non-empty string as the password. To update the app to use remote auth, see the RemoteAuthClient class.</string>
 
     <!-- Channel strings -->
     <string name="default_home_screen_channel_name">Example Channel</string>
@@ -183,7 +185,7 @@
     <string name="auth_sign_in_by_phone_desc">Login to your Immich instance by phone.</string>
     <string name="auth_demo_mode">Demo mode</string>
     <string name="auth_demo_mode_desc">Login to a demo Immich instance.</string>
-    <string name="auth_continue">Continue</string>
+    <string name="continue">Continue</string>
 
     <!-- Auth step 2 (GuidedStep) -->
     <string name="login_immich_description">Login to your Immich server or try a demo.</string>
