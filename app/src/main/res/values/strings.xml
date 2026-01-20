@@ -248,5 +248,6 @@
 
 
     <string name="already_added_metadata">You already added every possible meta data</string>
-
+    <string name="no_items_to_play">No items to play</string>
+    <string name="no_assets_for_screensaver">No assets to show for screensaver. Please configure a different screensaver type in the settings</string>
 </resources>

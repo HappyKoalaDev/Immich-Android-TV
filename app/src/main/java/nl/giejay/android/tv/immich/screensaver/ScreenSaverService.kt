@@ -182,7 +182,7 @@ class ScreenSaverService : DreamService(), MediaSliderListener {
     private suspend fun setInitialAssets(assets: List<Asset>, loadMore: LoadMore?) = withContext(Dispatchers.Main) {
         if (assets.isEmpty()) {
             Toast.makeText(this@ScreenSaverService,
-                getString(R.string.screensaver_set_select_albums_first),
+                getString(R.string.no_assets_for_screensaver),
                 Toast.LENGTH_LONG).show()
         } else {
             mediaSliderView.loadMediaSliderView(
