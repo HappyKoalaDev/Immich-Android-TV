@@ -59,7 +59,7 @@ class ScreenSaverService : DreamService(), MediaSliderListener {
     override fun onDreamingStarted() {
         Timber.i("Starting screensaver")
         if (!PreferenceManager.isLoggedId()) {
-            showErrorMessage("Could not start screensaver for Immich because of invalid Hostname/API key")
+            showErrorMessage(getString(R.string.screensaver_not_possible_title))
             finish()
             return
         }
@@ -144,12 +144,12 @@ class ScreenSaverService : DreamService(), MediaSliderListener {
                     }
                 }
             } else {
-                showErrorMessageMainScope("Set the Immich albums to show in the screensaver settings")
+                showErrorMessageMainScope(getString(R.string.set_albums_screensaver))
                 finish()
             }
         } catch (e: Exception) {
             Timber.e(e, "Could not fetch assets from Immich for Screensaver")
-            showErrorMessageMainScope("Could not load assets from Immich")
+            showErrorMessageMainScope(getString(R.string.could_not_fetch_qr_short).replace("QR code","assets"))
             finish()
         }
     }
@@ -181,7 +181,7 @@ class ScreenSaverService : DreamService(), MediaSliderListener {
     private suspend fun setInitialAssets(assets: List<Asset>, loadMore: LoadMore?) = withContext(Dispatchers.Main) {
         if (assets.isEmpty()) {
             Toast.makeText(this@ScreenSaverService,
-                "No assets to show for screensaver. Please configure a different screensaver type in the settings.",
+                getString(R.string.screensaver_set_select_albums_first),
                 Toast.LENGTH_LONG).show()
         } else {
             mediaSliderView.loadMediaSliderView(
