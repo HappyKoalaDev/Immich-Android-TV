@@ -150,7 +150,7 @@ class ScreenSaverService : DreamService(), MediaSliderListener {
             }
         } catch (e: Exception) {
             Timber.e(e, "Could not fetch assets from Immich for Screensaver")
-            showErrorMessageMainScope(getString(R.string.could_not_fetch_assets))
+            showErrorMessageMainScope(getString(R.string.could_not_load_assets))
             finish()
         }
     }
