@@ -82,6 +82,7 @@
     <string name="disable_ssl_text">Используйте это только при проблемах с самоподписанными сертификатами!</string>
     <string name="api_key_text">API ключ</string>
     <string name="server_url_text">URL сервера</string>
+    <string name="done">Готово</string>
 
     <!-- Auth by phone -->
     <string name="scan_qr_below">Сканируйте QR-код ниже</string>
@@ -179,14 +180,12 @@
     <string name="filtering">Фильтрация</string>
 
     <!-- Auth step 1 -->
-    <string name="auth_description">Войдите на ваш сервер Immich или попробуйте демо.</string>
     <string name="auth_sign_in_by_api_key">Войти по API-ключу</string>
     <string name="auth_sign_in_by_api_key_desc">Войдите в ваш экземпляр Immich, введя API-ключ.</string>
     <string name="auth_sign_in_by_phone">Войти по телефону</string>
     <string name="auth_sign_in_by_phone_desc">Войдите в ваш экземпляр Immich по телефону.</string>
     <string name="auth_demo_mode">Демо-режим</string>
     <string name="auth_demo_mode_desc">Войти в демонстрационный экземпляр Immich.</string>
-    <string name="continue">Продолжить</string>
 
     <!-- Auth step 2 (GuidedStep) -->
     <string name="login_immich_description">Войдите на ваш сервер Immich или попробуйте демо.</string>

@@ -27,7 +27,7 @@ class ImmichRowPresenter : Presenter() {
 
         if (editMode) {
             if (headerItem?.name == viewHolder.view.context.getString(R.string.edit)) {
-                vh.tvTitle.text = viewHolder.view.context.getString(R.string.close)
+                vh.tvTitle.text = viewHolder.view.context.getString(R.string.done)
             } else {
                 vh.icon.visibility = View.VISIBLE
                 if (PreferenceManager.itemInStringSet(headerItem?.name, HIDDEN_HOME_ITEMS)) {

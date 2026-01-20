@@ -31,7 +31,7 @@ class AuthFragmentStep1 : GuidedStepSupportFragment() {
             requireContext().getDrawable(R.drawable.icon)!!
         return GuidanceStylist.Guidance(
             getString(R.string.app_name) + " (${BuildConfig.VERSION_NAME})",
-            getString(R.string.auth_description),
+            getString(R.string.login_immich_description),
             "",
             icon
         )
@@ -69,7 +69,7 @@ class AuthFragmentStep1 : GuidedStepSupportFragment() {
         savedInstanceState: Bundle?
     ) {
         super.onCreateButtonActions(actions, savedInstanceState)
-        addAction(actions, ACTION_CONTINUE, getString(R.string.continue), "")
+        addAction(actions, ACTION_CONTINUE, getString(R.string.continue_text), "")
     }
 
     override fun onGuidedActionClicked(action: GuidedAction) {
