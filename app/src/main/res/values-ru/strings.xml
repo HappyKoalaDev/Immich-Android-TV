@@ -16,15 +16,15 @@
 
 <resources>
 
+
     <!-- Strings for the "No Firebase" screen -->
-    <string name="no_firebase_title">Firebase not configured</string>
-    <string name="no_firebase_body">Firebase has not been configured for this app. That means no account-specific features are enabled and watch
-        progress is stored locally. To enable Firebase features, refer to the readme file.</string>
-    <string name="continue_text">Continue</string>
+    <string name="no_firebase_title">Firebase не настроен</string>
+    <string name="no_firebase_body">Firebase не настроен для этого приложения. Это означает, что функции, зависящие от аккаунта, недоступны, а прогресс просмотра сохраняется локально. Чтобы включить функции Firebase, обратитесь к файлу readme.</string>
+    <string name="continue_text">Продолжить</string>
 
     <!-- Menus -->
-    <string name="menu_identity">Identity</string>
-
+    <string name="menu_identity">Идентификация</string>
+    
     <!-- Authentication and identity -->
     <string name="email">Адрес электронной почты</string>
     <string name="password">Пароль</string>
@@ -37,8 +37,7 @@
     <string name="onetap_error">One Tap вернул ошибку</string>
     <string name="server_error">Ошибка сервера</string>
     <string name="unknown_error">Неизвестная ошибка</string>
-    <string name="sign_in_intro">Без изменений это приложение использует локальную авторизацию (MockAuthClient). Вы можете войти, используя «%1$s» в
-        качестве e-mail и любую непустую строку в качестве пароля. Чтобы использовать удаленную авторизацию, смотрите класс RemoteAuthClient.</string>
+    <string name="sign_in_intro">Без изменений это приложение использует локальную авторизацию (MockAuthClient). Вы можете войти, используя «%1$s» в качестве e-mail и любую непустую строку в качестве пароля. Чтобы использовать удаленную авторизацию, смотрите класс RemoteAuthClient.</string>
 
     <!-- Channel strings -->
     <string name="default_home_screen_channel_name">Пример канала</string>
@@ -72,8 +71,7 @@
     <string name="debug">Отладка</string>
     <string name="donate">Пожертвовать</string>
     <string name="use_hd_thumbnails">Использовать миниатюры высокого разрешения</string>
-    <string name="use_hd_thumbnails_text">Использовать миниатюры высокого разрешения вместо полноразмерных изображений. Это значительно ускорит
-        загрузку.</string>
+    <string name="use_hd_thumbnails_text">Использовать миниатюры высокого разрешения вместо полноразмерных изображений. Это значительно ускорит загрузку.</string>
     <string name="albums_sorting_text">Задайте порядок отображения альбомов</string>
     <string name="order">Порядок</string>
     <string name="photos_sorting_text">Задайте порядок отображения фотографий</string>
@@ -139,7 +137,7 @@
     <string name="safe_center_crop_max_cutoff_height">Safe Center Crop: макс. обрезка по высоте, %</string>
     <string name="safe_center_crop_max_cutoff_height_desc">Максимальный процент обрезки высоты изображения при использовании SafeCenterCrop</string>
     <string name="safe_center_crop_max_cutoff_width">Safe Center Crop: макс. обрезка по ширине, %</string>
-    <string name="safe_center_crop_max_cutoff_width_desc">Максимальный процент обрезки ширины изображения при исп��льзовании SafeCenterCrop</string>
+    <string name="safe_center_crop_max_cutoff_width_desc">Максимальный процент обрезки ширины изображения при использовании SafeCenterCrop</string>
     <string name="photo_transformation">Преобразование фото</string>
     <string name="photo_transformation_desc">Преобразование фото</string>
     <string name="force_original_video">Принудительно оригинальное видео</string>
@@ -212,8 +210,7 @@
 
     <!-- Donate -->
     <string name="donation_title">Пожертвование</string>
-    <string name="donation_subtitle">Разработка этого приложения требует больших усилий. Если хотите выразить признательность, вы можете пожертвовать,
-        используя следующие варианты.</string>
+    <string name="donation_subtitle">Разработка этого приложения требует больших усилий. Если хотите выразить признательность, вы можете пожертвовать, используя следующие варианты.</string>
     <string name="donation_exhausted">Вы исчерпали варианты пожертвований, спасибо!</string>
     <string name="donation_init_failed">Не удалось инициализировать сервис пожертвований</string>
 
