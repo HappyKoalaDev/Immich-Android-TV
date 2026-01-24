@@ -35,6 +35,7 @@ import nl.giejay.android.tv.immich.shared.prefs.SCREENSAVER_SHOW_CLOCK
 import nl.giejay.android.tv.immich.shared.prefs.SCREENSAVER_SHOW_DATE
 import nl.giejay.android.tv.immich.shared.prefs.SCREENSAVER_SHOW_DESCRIPTION
 import nl.giejay.android.tv.immich.shared.prefs.SCREENSAVER_SHOW_MEDIA_COUNT
+import nl.giejay.android.tv.immich.shared.prefs.SCREENSAVER_BRIGHTNESS
 import nl.giejay.android.tv.immich.shared.prefs.SCREENSAVER_TYPE
 import nl.giejay.android.tv.immich.shared.prefs.SLIDER_ANIMATION_SPEED
 import nl.giejay.android.tv.immich.shared.prefs.SLIDER_GLIDE_TRANSFORMATION
@@ -79,6 +80,11 @@ class ScreenSaverService : DreamService(), MediaSliderListener {
         )
         setContentView(mediaSliderView)
         isInteractive = true
+
+        // set brightness
+        val brightnessValue: Int = PreferenceManager.get(SCREENSAVER_BRIGHTNESS)
+        mediaSliderView.alpha = brightnessValue.toFloat() / 100
+
         ioScope.launch {
             if (ScreenSaverType.ALBUMS == PreferenceManager.get(SCREENSAVER_TYPE)) {
                 loadImagesFromAlbums(PreferenceManager.get(SCREENSAVER_ALBUMS))

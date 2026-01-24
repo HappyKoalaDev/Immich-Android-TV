@@ -115,6 +115,7 @@ data object SCREENSAVER_METADATA_CUSTOMIZER : ActionPref(ImmichApplication.appCo
 
 data object SCREENSAVER_INCLUDE_VIDEOS : BooleanPref(false, ImmichApplication.appContext!!.getString(R.string.include_videos), ImmichApplication.appContext!!.getString(R.string.include_videos_screensaver))
 data object SCREENSAVER_PLAY_SOUND : BooleanPref(false, ImmichApplication.appContext!!.getString(R.string.play_sound), ImmichApplication.appContext!!.getString(R.string.play_sound_screensaver))
+data object SCREENSAVER_BRIGHTNESS : IntListPref(100, ImmichApplication.appContext!!.getString(R.string.screensaver_brightness), ImmichApplication.appContext!!.getString(R.string.screensaver_brightness_desc), R.array.screensaver_brightness_labels, R.array.screensaver_brightness_keys)
 data object SCREENSAVER_TYPE : EnumByTitlePref<ScreenSaverType>(ScreenSaverType.RECENT,
     ImmichApplication.appContext!!.getString(R.string.screensaver_type),
     ImmichApplication.appContext!!.getString(R.string.screensaver_type_desc)) {
@@ -352,7 +353,8 @@ data object ScreensaverPrefScreen : PrefScreen(ImmichApplication.appContext!!.ge
                 SCREENSAVER_METADATA_CUSTOMIZER,
                 SCREENSAVER_INCLUDE_VIDEOS,
                 SCREENSAVER_PLAY_SOUND,
-                SCREENSAVER_ANIMATE_ASSET_SLIDE)
+                SCREENSAVER_ANIMATE_ASSET_SLIDE,
+                SCREENSAVER_BRIGHTNESS)
         )
     )
 )

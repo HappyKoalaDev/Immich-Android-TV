@@ -117,6 +117,8 @@
     <string name="include_videos_screensaver">Include videos in screensaver</string>
     <string name="play_sound">Play sound</string>
     <string name="play_sound_screensaver">Play sound of videos during screensaver</string>
+    <string name="screensaver_brightness">Screensaver brightness</string>
+    <string name="screensaver_brightness_desc">Set the brightness of the screen during screensaver</string>
     <string name="screensaver_type">Screensaver type</string>
     <string name="screensaver_type_desc">What to show: albums, random, recent etc.</string>
 
